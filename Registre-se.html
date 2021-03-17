@@ -5,6 +5,14 @@
   <link rel="stylesheet" type="text/css" href="Registre-se.css">
   <title>AIRBNB</title>
   <input type="button" onclick="funcao1()" value="COVID-19" />
+  
+  <script>
+
+    function funcao1()
+    {
+    alert("Siga as recomendações referentes ao COVID-19");
+    }
+  </script>
 </head>
 
 <body>
@@ -21,18 +29,101 @@
 </nav>
 </div>
 
+ 
+ 
+       
+
+        <!-- Início do formulário -->
+        <form class="formulário">
+
+            <fieldset class="grupo">
+              <div>
+                <h1 id="titulo">Registre-se</h1>
+                <br>
+            </div>
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+              
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+
+                <div class="campo">
+                  <label for="email"><strong>Email</strong></label>
+                  <input type="email" name="email" id="email" required>
+              </div>
+<div>
+              <button class="botao" type="submit" onsubmit="">Concluído</button> 
+            </div>
+            </fieldset> 
+
+
+            <!-- Campo de desenvolvimento web com 2 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Indique se é Hóspede ou Anfitrião:</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Hóspede
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Anfitrião
+                </label>
+           
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Procedência</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Nacional</option>
+                  <option>Internacional</option>
+              
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Preferências:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Praia">
+                    <label for="tecnologia1"> Praia</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Campo">
+                    <label for="tecnologia2"> Campo</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Gastronomia">
+                    <label for="tecnologia3"> Gastronomia</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Cidades Histórica">
+                    <label for="tecnologia4"> Cidades Históricas</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Casas Únicas>
+                    <label for="tecnologia5"> Casas Únicas</label>
+                 
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Comentários: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+      
+                      
+
+        </form>
+
+  
+
+
 </body>    
 
 
-    
-
-    <script>
-
-      function funcao1()
-      {
-      alert("Siga as recomendações referentes ao COVID-19");
-      }
-    </script>
+  
 
       <footer>
 
