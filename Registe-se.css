@@ -26,11 +26,10 @@ height: 82px;
 }
 
 ul{
-margin: 200px auto;
+margin: 20px auto;
 width: 1100px;
 height: 50px;
 list-style: circle;
-background: white;
 border-radius: 30px;
 }
 
@@ -49,6 +48,7 @@ font-size: 24px;
 transition: 2s;
 padding: 25px 30px;
 border-radius: 30px;
+background: white;
 }
 
 li a:hover {
@@ -75,11 +75,13 @@ ____________________________________
 
 #check{
   display: inline-block;
+  font-family: sans-serif;
 }
 
 /* Elementos de tag <fieldset>*/
 fieldset {
   border: 0;
+  font-family: sans-serif;
 }
 
 /* Elemento de tag <body> */
@@ -96,16 +98,19 @@ input, select, textarea, button {
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
 .grupo:before, .grupo:after {
   display: table;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
 .grupo:after {
   clear: both;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "campo" */
 .campo {
   margin-bottom: 1em;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "campo" de tag <label> */
@@ -113,12 +118,14 @@ input, select, textarea, button {
   margin-bottom: 0.2em;
   color: #59429d;
   display: block;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
   float:  left;
   margin-right: 1em;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
@@ -127,31 +134,33 @@ fieldset.grupo .campo {
   border: 1px solid #59429d;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   display: block;
+  font-family: sans-serif;
 }
 
 /* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option {
   padding-right: 1em;
+  font-family: sans-serif;
 }
 
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus {
   background: #E0E0F8;
+  font-family: sans-serif;
 }
 
 /* Elemento de classe "botao" */
 .botao {
+  margin: 100px auto;
   font-size: 1.2em;
   background: #59429d;
   border: 0;
-  margin-bottom: 1em;
   color: #ffffff;
   padding: 0.2em 0.6em;
   box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   position: absolute;
-  top: 90%;
-
+  float: unset;
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
@@ -172,11 +181,21 @@ form.formulário{
 
   width: 600px;
   background-color: white;
-  margin: 200px auto 10px auto;
+  margin: 100px auto 10px auto;
   box-shadow: 0px 0px 200px black;
   padding: 5px 10px 5px 10px;
   border-radius: 30px;
+  font-family: sans-serif;
 }
 form.formulário{
 
+}
+footer.rodape{
+  clear: both;
+  border-top: 1px solid #504c4c;
+}
+
+footer.rodape p {
+  text-align: center;
+  color: white;
 }

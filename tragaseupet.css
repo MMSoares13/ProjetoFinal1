@@ -11,7 +11,7 @@ body{
   padding: 0;
   width: 100%;
   height: 100vh;
-  background-image: url("imagens/praia1.jpg");
+  background-image: url("imagens/estrada.jpg");
   background-size: cover;
   display: table;
 }
@@ -92,39 +92,47 @@ ul#imagens li span{
 }
 
 ul#imagens li#foto01{
-  background: url("imagens/cascais/cascaisbay.jpg") no-repeat;
+  background: url("imagens/Pet/animal-clinic-36.jpg") no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
   background-color: #ffffff;
 }
 
 ul#imagens li#foto02{
-  background: url("imagens/cascais/cascaisboca.jpg") no-repeat;
+  background: url("imagens/Pet/calango.jpg") no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
   background-color: #ffffff;
 }
 
 ul#imagens li#foto03{
-  background: url("imagens/cascais/cascaiscentro.jpg") no-repeat;
+  background: url("imagens/Pet/caoegato.jpg") no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
   background-color: #ffffff;
 }
 
 ul#imagens li#foto04{
-  background: url("imagens/cascais/cascaisfarol.jpg") no-repeat;
+  background: url("imagens/Pet/caoloira.jpg") no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
   background-color: #ffffff;
 }
 
 ul#imagens li#foto05{
-  background: url("imagens/cascais/cascaisrainha.jpg") no-repeat;
+  background: url("imagens/Pet/caovendado.jpg") no-repeat;
   background-position: 50% 50%;
   background-size: 400px 400px;
   background-color: #ffffff;
 }
+
+ul#imagens li#foto06{
+  background: url("imagens/Pet/gatinhoamarelo.jpg") no-repeat;
+  background-position: 50% 50%;
+  background-size: 400px 400px;
+  background-color: #ffffff;
+}
+
 ul#imagens li#foto01:hover{
   background-position: 0px 0px;
   background-size: 200px 200px;
@@ -154,14 +162,6 @@ ul#imagens li#foto06:hover{
   background-position: 0px 0px;
   background-size: 200px 200px;
 }
-
-ul#imagens li#foto06{
-  background: url("imagens/cascais/cascaisrio1.jpg.png") no-repeat;
-  background-position: 50% 50%;
-  background-size: 400px 400px;
-  background-color: #ffffff;
-}
-
 footer.rodape{
   clear: both;
   border-top: 1px solid #504c4c;
@@ -171,3 +171,5 @@ footer.rodape p {
   text-align: center;
   color: white;
 }
+
+      
