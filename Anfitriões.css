@@ -57,6 +57,15 @@ li a:hover {
   background: rgba(255,255,0.7)
 }
 
+.texto{
+  text-align: justify;
+  width: 700px;
+  background: white;
+  margin: 100px auto;
+  padding: 20px;
+
+}
+
 footer.rodape{
   clear: both;
   border-top: 1px solid #504c4c;
