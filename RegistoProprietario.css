@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+html {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("imagens/fundo.jpg");
+  background-size: cover;
+  display: table;
+}
+
+.j1 {
+  
+  text-align: left;
+}
+
+.nav {
+height: 82px;
+}
+
+ul{
+margin: 20px auto;
+width: 1100px;
+height: 50px;
+list-style: circle;
+border-radius: 30px;
+}
+
+li{
+margin-top: 26px;
+display: inline-block;
+}
+
+li a {
+text-decoration: none;
+color: rgb(20, 19, 19);
+text-transform: uppercase;
+font-family: "Open Sans Condensed", sans-serif;
+font-weight: lighter;
+font-size: 24px;
+transition: 2s;
+padding: 10px 30px;
+border-radius: 30px;
+background: white;
+}
+
+li a:hover {
+  transition: 1s;
+  color: black;
+  background: rgba(255,255,0.7)
+}
+      
+____________________________________
+
+
+#titulo {
+  font-family: sans-serif;
+  color: #380B61;
+  margin-left: 7%;
+} 
+fieldset {
+  border: 0;
+  font-family: sans-serif;
+}
+
+form.formulário{
+
+  width: 430px;
+  background-color: white;
+  margin: 100px auto 20px auto;
+  box-shadow: 0px 0px 200px black;
+  padding: 10px;
+  border-radius: 30px;
+  font-family: sans-serif;
+}
+
+input, select, textarea, button {
+  font-family: sans-serif;
+  font-size: 2em;
+  color: #59429d;
+  border-radius: 5px;
+}
+
+.campo {
+  margin-bottom: 1em;
+  font-family: sans-serif;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #59429d;
+  display: block;
+  font-family: sans-serif;
+}
+
+
+
+
+.campo input[type="text"], 
+.campo input[type="email"], 
+.campo input[type="senha"], 
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  font-family: sans-serif;
+}
+
+.campo input[type="number"]{
+  padding: 0.2em;
+  border: 1px solid #59429d;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+  font-family: sans-serif;
+}
+
+.campo select option {
+  padding-right: 1em;
+  font-family: sans-serif;
+}
+
+.botao {
+  margin: auto;
+  font-size: 1.2em;
+  background: #59429d;
+  border: 0;
+  color: #ffffff;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  position: static;
+ text-align: center;
+
+}
+
+
+.botao:hover {
+  background: #CCBBFF;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+
+.botao, select{
+  cursor: pointer;
+}
+
+
+footer.rodape{
+  clear: both;
+  border-top: 1px solid #504c4c;
+}
+
+footer.rodape p {
+  text-align: center;
+  color: white;
+}
